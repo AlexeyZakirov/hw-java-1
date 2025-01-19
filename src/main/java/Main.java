@@ -13,10 +13,10 @@ public class Main {
         String work = "Test";
         int age = 8;
 
-        System.out.println(work.equals("Test") && age == 8); //оба параметра должны совпасть // true
-        System.out.println(work.equals("Apple") || age == 8); //может совпасть только один //true
-        System.out.println(work.equals("Apple") || age == 34); //может совпасть только один //false
-        System.out.println(work.equals("Test") && age == 34); //оба параметра должны совпасть // false
+        System.out.println(work.equals("Test") && age == 8);
+        System.out.println(work.equals("Apple") || age == 8);
+        System.out.println(work.equals("Apple") || age == 34);
+        System.out.println(work.equals("Test") && age == 34);
 
 
         byte value1 = 127;
